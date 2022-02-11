@@ -1,9 +1,9 @@
-"use strict"
+function cambiarFondo(){
+    document.body.style.backgroundColor = '#B075EE';
+    alert("El color de fondo cambiará");
+}
+
 window.addEventListener("load",function(){
-    function cambiarFondo(){
-        document.body.style.backgroundColor = '#B075EE';
-        alert("El color de fondo cambiará");
-    }
     var formulario=document.querySelector("#formulario");
     formulario.addEventListener('submit', function(){
         console.log("Captura de datos");
