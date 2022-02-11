@@ -1,0 +1,58 @@
+body{
+  background-color:#9BE0EC ;
+}
+header{
+  margin: 0px auto;
+  width: 80%;
+}
+#menu{
+	background: blue;
+	width: 100%;
+}
+
+#menu ul{
+	line-height: 50px;
+	list-style: none;
+}
+
+#menu ul li{
+	height: 50px;
+	display: inline-block;
+}
+
+#menu a{
+	display: block;
+	color:white;
+	padding-left: 30px;
+	padding-right: 30px;
+  text-align: center;
+}
+#menu a:hover{
+background: #1A7391;
+}
+img{
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: 0px auto;
+}
+#cambio{
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: aquamarine;
+}
+.center {
+  width: 800px;
+  border: 2px solid black;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+}
+.center p{
+ font-size: 30px;
+ text-align: justify;
+}
+form{
+  padding: 10px;
+}
+
