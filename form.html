@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/js.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="hobby.html">Hobby</a></li>
+                <li><a href="mas.html">Más cosas</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <img src="img/1.jpg" alt="">
+    <div class="center">
+		<form action="#" id="formulario"  method="post" onsubmit="return false;">
+			<label for="name">
+				Nombre
+			</label>
+			<input type="text" name="name" id="form_name"/>
+
+			<label for="email">
+				Correo
+			</label>
+			<input type="text" name="email" id="email" />
+
+			<label for="edad">
+				Edad
+			</label>
+			<input type="number" name="edad"  id="edad"/>
+
+			<input type="submit" value="Entrar" id="submit"/>
+		</form>
+        <div class="datos" style="display: none ;">
+            <h2>Datos</h2>
+            <br>
+            <p id="d_nombre">Nombre: <span></span></p>
+            <p id="d_email">Email: <span></span></p>
+            <p id="d_edad">Edad: <span></span></p>
+        </div>
+    </div>
+   
+</body>
+</html>
